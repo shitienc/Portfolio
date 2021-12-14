@@ -140,6 +140,10 @@ h2{
     /* STYLING TIL "HOME" */
     /* styling af header på "HOME" */
 
+    p{
+        font-size: 18px;
+    }
+    
     header{
         display: block;
         background-image: url(img/header-background.png);
@@ -180,6 +184,8 @@ h2{
         padding: 13rem 13rem;
     }
 
+    /* ny sektion MY WORK */
+
     .my-work hr{
         width: 200px;
         margin-left: 42%;
@@ -190,6 +196,16 @@ h2{
         display: inline-grid;
         grid-template-columns: 1fr 1fr;
         grid-column-gap: 10px;
+    }
+
+
+
+
+    /* STYLING TIL ABOUT */
+
+    .header-text-about hr{
+        width: 200px;
+        margin-left: 41%;
     }
 
 }
