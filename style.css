@@ -193,6 +193,46 @@ h2{
 /* STYLING AF CONTACT */
 /* ny sektion CONTACT INFO */
 
+.contact-info .text{
+    padding: 8rem 3rem 3rem 3rem;
+}
+
+.contact-info .text hr{
+    width: 200px;
+}
+
+.contact-info .text img{
+    width: 20px;
+    padding-top: 10px;
+}
+
+.contact-info .text p{
+    padding-top: 20px;
+}
+
+.message-box{
+    margin: 0 3rem;
+}
+
+/* kontakt box taget fra https://www.w3schools.com/howto/howto_css_contact_form.asp .
+starter her fra */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 0,5px solid #707070;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    font-family: 'Tajawal';
+  }
+
+  /* kontakt box taget fra https://www.w3schools.com/howto/howto_css_contact_form.asp .
+    slutter her */
+
+
+
+
 /* TIL COMPUTER */
 
 @media (min-width: 1000px) {
