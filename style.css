@@ -60,3 +60,47 @@ nav{
     color: #707070;
     text-decoration: none;
 }
+
+
+/* TIL COMPUTER */
+
+@media (min-width: 1000px) {
+
+    /* STYLING TIL "HOME" */
+    /* styling af header på "HOME" */
+
+    header{
+        display: block;
+        background-image: url(img/header-background.png);
+    }
+
+    /* flytter navbaren */
+
+    nav{
+        padding: 2% 5% 2% 15%;
+    }
+
+      /* stylling af linksne, hvor placering der bliver mellemrum mellem de forskellig links*/
+
+    .nav-links ul li{
+        display: inline-block;
+        padding: 7px 25px;
+    }
+
+    /* hover effekt på links*/
+
+    ul li::after{
+        content: '';
+        width: 0%;
+        height: 1px;
+        background: #707070;
+        display: block;
+        margin: auto;
+        transition: 0.5s;
+    }
+    
+    ul li:hover::after{
+        width: 100%;
+    }
+
+}
