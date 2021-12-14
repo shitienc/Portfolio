@@ -118,10 +118,14 @@ h2{
 
 /* STYLING TIL "ABOUT" */
 
+/* ny baggrundsbillede */
+
 .header-about{
     background-image: none;
     background-color: #D3E8EF;
 }
+
+/* tekst til header */
 
 .header-text-about{
     text-align: center;
@@ -131,6 +135,50 @@ h2{
 .header-text-about hr{
     width: 150px;
     margin-left: 50px;
+}
+
+/*ny sektion ABOUT ME */
+
+.about-me{
+    padding: 0 3rem 0 3rem;
+    margin-bottom: 5rem;
+}
+
+.about-me h2{
+    padding-bottom: 20px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.about-me p{
+    padding-bottom: 30px;
+}
+
+.about-me .picture img{
+    width: 200px;
+    border-radius: 100%;
+}
+
+.about-me .picture{
+    text-align: center;
+    padding-top: 2rem;
+}
+
+/* styling af cv knappen */
+
+.btn{
+    text-decoration: none;
+    color: #707070;
+    background-color: #B4BF8C;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-family: 'Julius Sans One', regular;
+}
+
+.hero-btn:hover{
+    border: 1px solid #000;
+    background: #D3E8EF;
+    transition: 1s;
 }
 
 /* TIL COMPUTER */
