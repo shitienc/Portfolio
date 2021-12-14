@@ -263,19 +263,22 @@ input[type=text], select, textarea {
 
 img{
     width: 280px;
-    padding-top: 10px;
+    padding-top: 20px;
 }
 
 .kyoto .text{
-    padding: 1rem 3rem;
+    padding: 1rem 2.5rem;
 }
 
 .takayama .text{
-    padding: 1rem 3rem;
+    padding: 1rem 2.5rem;
 }
 
 h3{
     font-family: 'Julius Sans One';
+    color: #707070;
+    text-transform: uppercase;
+
 }
 
 hr{
@@ -287,6 +290,20 @@ hr{
     padding-bottom: 5rem;
 }
 
+
+
+
+/*STYLING AF ILLUSTRATION*/
+
+.traveling{
+    background-color: #D3E8EF;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.traveling .text{
+    padding: 1rem 2.5rem;
+}
 
 /* TIL COMPUTER */
 
@@ -391,11 +408,25 @@ hr{
 
     /*STILYNG TIL PHOTOGRAPHY*/
     .kyoto .text{
-        padding: 1rem 13rem;
+        padding: 1rem 6.5rem;
     }
     
     .takayama .text{
-        padding: 1rem 13rem;
+        padding: 1rem 6.5rem;
+    }
+
+    img{
+        width: 350px;
+    }
+
+
+    /*STYLING TIL ILLUSTRATION*/
+    .traveling .text{
+        padding: 1rem 6.5rem;
+    }
+
+    .traveling img{
+        width: 350px;
     }
 
 
