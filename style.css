@@ -1,0 +1,58 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+/* baggrund for hjemmeside til mobil version */
+
+/* styling af header på "HOME" */
+
+header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(img/);
+    background-position: center;
+    position: relative;
+}
+
+/* logo til navbar */
+
+nav img{
+    width: 100px;
+}
+
+/* navbar til mobilform */
+/* gør således at det der står under "nav" kommer ud i række.
+placering af navlinksne (padding, justify-content og align-items */
+
+nav{
+    display: flex;
+    padding: 2% 5% 2% 15%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* links i navbaren */
+/* placering af de forskellige navlinks*/
+
+.nav-links ul{
+    display: block;
+    padding: 30px;
+    text-align: center;
+}
+
+/* styling af navlinks, herunder fjerne punktform, fontsvalg og størrelse */
+
+.nav-links ul li{
+    display: block;
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Julius Sans One', regular;
+}
+
+/* styling af navlinks, herunder fjerne link linjen og farve på fonts  */
+
+.nav-links ul li a{
+    color: #707070;
+    text-decoration: none;
+}
