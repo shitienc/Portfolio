@@ -7,7 +7,6 @@
 /* STYLING AF HOME */
 
 /* baggrund for hjemmeside til mobil version */
-
 /* styling af header på "HOME" */
 
 header{
@@ -25,8 +24,7 @@ nav img{
 }
 
 /* navbar til mobilform */
-/* gør således at det der står under "nav" kommer ud i række.
-placering af navlinksne (padding, justify-content og align-items */
+/* placering af navlinksne (padding, justify-content og align-items */
 
 nav{
     display: flex;
@@ -59,6 +57,34 @@ nav{
 .nav-links ul li a{
     color: #707070;
     text-decoration: none;
+}
+
+/* stylling af header-text på side "HOME" */
+
+.header-text{
+    padding: 13rem 3rem;
+}
+
+h1{
+    font-family: 'Julius Sans One', regular;
+    color: #707070;
+    text-transform: uppercase;
+}
+
+p{
+    font-family: 'Tajawal';
+    color: #707070;
+}
+
+.header-text hr{
+    width: 150px;
+}
+
+/* styling af SoMe ikoner */
+
+.header-text img{
+    padding-top: 20px;
+    width: 30px;
 }
 
 
