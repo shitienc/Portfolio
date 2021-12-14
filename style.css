@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+
+/* STYLING AF HOME */
+
 /* baggrund for hjemmeside til mobil version */
 
 /* styling af header på "HOME" */
@@ -10,7 +13,7 @@
 header{
     min-height: 100vh;
     width: 100%;
-    background-image: url(img/);
+    background-image: url(img/header-background-mobil.png);
     background-position: center;
     position: relative;
 }
@@ -27,7 +30,7 @@ placering af navlinksne (padding, justify-content og align-items */
 
 nav{
     display: flex;
-    padding: 2% 5% 2% 15%;
+    padding: 2% 0% 2% 15%;
     justify-content: space-between;
     align-items: center;
 }
@@ -48,6 +51,7 @@ nav{
     list-style: none;
     font-size: 20px;
     font-family: 'Julius Sans One', regular;
+    padding-top: 20px;
 }
 
 /* styling af navlinks, herunder fjerne link linjen og farve på fonts  */
