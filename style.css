@@ -87,6 +87,33 @@ p{
     width: 30px;
 }
 
+/* styling i section "My Work" */
+
+h2{
+    font-family: 'Julius Sans One';
+    color: #707070;
+    text-transform: uppercase;
+}
+
+.my-work hr{
+    width: 150px;
+    margin-left: 100px;
+}
+
+.my-work{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.my-work h2{
+    padding-top: 5rem;
+    text-transform: uppercase;
+}
+
+.my-work img{
+    width: 250px;
+    padding-top: 10px;
+}
 
 /* TIL COMPUTER */
 
@@ -133,6 +160,18 @@ p{
     
     .header-text{
         padding: 13rem 13rem;
+    }
+
+    .my-work hr{
+        width: 200px;
+        margin-left: 42%;
+    }
+
+    .my-work .portfolio-icon{
+        padding-top: 20px;
+        display: inline-grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 10px;
     }
 
 }
