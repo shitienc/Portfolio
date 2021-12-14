@@ -14,7 +14,6 @@ header{
     width: 100%;
     background-image: url(img/header-background-mobil.png);
     background-position: center;
-    position: relative;
 }
 
 /* logo til navbar */
@@ -62,7 +61,7 @@ nav{
 /* stylling af header-text på side "HOME" */
 
 .header-text-home{
-    padding: 13rem 3rem;
+    padding: 9rem 3rem;
 }
 
 h1{
@@ -252,7 +251,7 @@ input[type=text], select, textarea {
 }
 
 .kyoto{
-    background-color: #B4BF8C;
+    background-color: #D3E8EF;
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
@@ -263,7 +262,7 @@ input[type=text], select, textarea {
 
 img{
     width: 280px;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .kyoto .text{
@@ -278,7 +277,6 @@ h3{
     font-family: 'Julius Sans One';
     color: #707070;
     text-transform: uppercase;
-
 }
 
 hr{
@@ -305,11 +303,31 @@ hr{
     padding: 1rem 2.5rem;
 }
 
+
+
+
+/* STYLING AF ANIMATION */
+
+.some-content{
+    background-color: #B4BF8C;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.some-content .text{
+    padding: 1rem 2.5rem;
+}
+
+.some-content hr{
+    width: 250px;
+}
+
+
+
 /* TIL COMPUTER */
 
 @media (min-width: 1000px) {
 
-    
     
     
     /* STYLING TIL "HOME" */
@@ -356,10 +374,20 @@ hr{
     /* placering af header teksten til computerskærm */
     
     .header-text-home{
-        padding: 13rem 13rem;
+        padding: 8rem 17rem;
     }
 
     /* ny sektion MY WORK */
+
+    .my-work{
+        min-height: 100%;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .my-work h2{
+        padding-top: 3rem;
+    }
 
     .my-work hr{
         width: 200px;
@@ -389,13 +417,20 @@ hr{
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-column-gap: 3rem;
-        padding: 5% 15% 0 15%;
+        padding: 5% 20% 0 20%;
+        margin-bottom: 9rem;
     }
 
     .about-me .picture img{
         width: 300px;
         padding-top: 50px;
     }
+
+    .about-me p{
+        font-size: 16px;
+    }
+
+
 
 
     /*STILYNG TIL CONTACT*/
@@ -404,9 +439,14 @@ hr{
         padding: 5% 15% 0 15%;
     }
 
+    .contact-info .text{
+        padding: 0.5rem 3rem 3rem 3rem;
+    }
+
 
 
     /*STILYNG TIL PHOTOGRAPHY*/
+    
     .kyoto .text{
         padding: 1rem 6.5rem;
     }
@@ -431,4 +471,18 @@ hr{
 
 
 
+
+    /* STYLING TIL ANIMATION */
+
+    .some-content .text{
+        padding: 1rem 6.5rem;
+    }
+
+    .some-content img{
+        width: 350px;
+    }
+
+    .some-content hr{
+        width: 400px;
+    }
 }
