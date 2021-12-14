@@ -118,6 +118,8 @@ h2{
 
 
 
+
+
 /* STYLING TIL "ABOUT" */
 
 /* ny baggrundsbillede */
@@ -190,8 +192,14 @@ h2{
 
 
 
+
+
 /* STYLING AF CONTACT */
 /* ny sektion CONTACT INFO */
+
+.contact-info{
+    margin-bottom: 5rem;
+}
 
 .contact-info .text{
     padding: 8rem 3rem 3rem 3rem;
@@ -237,6 +245,9 @@ input[type=text], select, textarea {
 
 @media (min-width: 1000px) {
 
+    
+    
+    
     /* STYLING TIL "HOME" */
     /* styling af header på "HOME" */
 
@@ -322,6 +333,12 @@ input[type=text], select, textarea {
         padding-top: 50px;
     }
 
+
+    /*STILYNG TIL CONTACT*/
+    .contact-info{
+        display: flex;
+        padding: 5% 15% 0 15%;
+    }
 
 
 }
