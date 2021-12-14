@@ -61,7 +61,7 @@ nav{
 
 /* stylling af header-text på side "HOME" */
 
-.header-text{
+.header-text-home{
     padding: 13rem 3rem;
 }
 
@@ -76,18 +76,18 @@ p{
     color: #707070;
 }
 
-.header-text hr{
+.header-text-home hr{
     width: 150px;
 }
 
 /* styling af SoMe ikoner */
 
-.header-text img{
+.header-text-home img{
     padding-top: 20px;
     width: 30px;
 }
 
-/* styling i section "My Work" */
+/* styling i section "MY WORK" */
 
 h2{
     font-family: 'Julius Sans One';
@@ -116,6 +116,8 @@ h2{
 }
 
 
+
+
 /* STYLING TIL "ABOUT" */
 
 /* ny baggrundsbillede */
@@ -127,12 +129,16 @@ h2{
 
 /* tekst til header */
 
-.header-text-about{
+.header-text{
     text-align: center;
     padding: 10rem 3rem;
 }
 
-.header-text-about hr{
+.header-text p{
+    padding-top: 20px;
+}
+
+.header-text hr{
     width: 150px;
     margin-left: 50px;
 }
@@ -181,6 +187,12 @@ h2{
     transition: 0.5s;
 }
 
+
+
+
+/* STYLING AF CONTACT */
+/* ny sektion CONTACT INFO */
+
 /* TIL COMPUTER */
 
 @media (min-width: 1000px) {
@@ -228,7 +240,7 @@ h2{
     
     /* placering af header teksten til computerskærm */
     
-    .header-text{
+    .header-text-home{
         padding: 13rem 13rem;
     }
 
@@ -251,9 +263,9 @@ h2{
 
     /* STYLING TIL ABOUT */
 
-    .header-text-about hr{
+    .header-text hr{
         width: 200px;
-        margin-left: 41%;
+        margin-left: 40%;
     }
 
     /*ny sektion ABOUT ME */
