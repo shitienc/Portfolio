@@ -119,12 +119,11 @@ h2{
 
 
 
-
 /* STYLING TIL "ABOUT" */
 
 /* ny baggrundsbillede */
 
-.header-about{
+.header-a-c{
     background-image: none;
     background-color: #D3E8EF;
 }
@@ -220,6 +219,42 @@ h2{
 
 .message-box{
     margin: 0 3rem;
+}
+
+
+
+
+/*STYLING TIL PHOTOGRAPHY*/
+
+.header-portfolio{
+    background-image: none;
+}
+
+section{
+    background-color: #B4BF8C;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.photo{
+    text-align: center;
+}
+
+img{
+    width: 280px;
+    padding-top: 10px;
+}
+
+.text{
+    padding: 1rem 3rem;
+}
+
+h3{
+    font-family: 'Julius Sans One';
+}
+
+hr{
+    width: 200px;
 }
 
 /* kontakt box taget fra https://www.w3schools.com/howto/howto_css_contact_form.asp .
