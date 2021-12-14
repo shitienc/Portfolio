@@ -167,6 +167,7 @@ h2{
 /* styling af cv knappen */
 
 .btn{
+    display: inline-block;
     text-decoration: none;
     color: #707070;
     background-color: #B4BF8C;
@@ -175,10 +176,9 @@ h2{
     font-family: 'Julius Sans One', regular;
 }
 
-.hero-btn:hover{
-    border: 1px solid #000;
+.btn:hover{
     background: #D3E8EF;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 /* TIL COMPUTER */
@@ -255,5 +255,21 @@ h2{
         width: 200px;
         margin-left: 41%;
     }
+
+    /*ny sektion ABOUT ME */
+
+    .about-me{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 3rem;
+        padding: 5% 15% 0 15%;
+    }
+
+    .about-me .picture img{
+        width: 300px;
+        padding-top: 50px;
+    }
+
+
 
 }
