@@ -123,6 +123,16 @@ h2{
     background-color: #D3E8EF;
 }
 
+.header-text-about{
+    text-align: center;
+    padding: 10rem 3rem;
+}
+
+.header-text-about hr{
+    width: 150px;
+    margin-left: 50px;
+}
+
 /* TIL COMPUTER */
 
 @media (min-width: 1000px) {
