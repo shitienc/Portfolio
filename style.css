@@ -230,7 +230,7 @@ h2{
     background-image: none;
 }
 
-section{
+.kyoto{
     background-color: #B4BF8C;
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -255,6 +255,11 @@ h3{
 
 hr{
     width: 200px;
+}
+
+.takayama{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 /* kontakt box taget fra https://www.w3schools.com/howto/howto_css_contact_form.asp .
