@@ -128,5 +128,11 @@ p{
     ul li:hover::after{
         width: 100%;
     }
+    
+    /* placering af header teksten til computerskærm */
+    
+    .header-text{
+        padding: 13rem 13rem;
+    }
 
 }
