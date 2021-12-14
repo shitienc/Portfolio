@@ -115,6 +115,14 @@ h2{
     padding-top: 10px;
 }
 
+
+/* STYLING TIL "ABOUT" */
+
+.header-about{
+    background-image: none;
+    background-color: #D3E8EF;
+}
+
 /* TIL COMPUTER */
 
 @media (min-width: 1000px) {
