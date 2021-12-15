@@ -275,6 +275,10 @@ img{
     padding: 1rem 2.5rem;
 }
 
+.kyoto .text h4{
+    padding-top: 20px;
+}
+
 .takayama .text{
     padding: 1rem 2.5rem;
 }
@@ -294,6 +298,12 @@ hr{
     padding-bottom: 5rem;
 }
 
+.takayama .text h4{
+    padding-top: 20px;
+}
+
+
+
 
 
 
@@ -307,6 +317,10 @@ hr{
 
 .traveling .text{
     padding: 1rem 2.5rem;
+}
+
+.traveling .text h4{
+    padding-top: 20px;
 }
 
 
@@ -326,6 +340,10 @@ hr{
 
 .some-content hr{
     width: 250px;
+}
+
+.some-content h3{
+    padding: 1rem 2.5rem;
 }
 
 
@@ -467,7 +485,7 @@ h4{
 
     .header-text hr{
         width: 200px;
-        margin-left: 40%;
+        margin-left: 41%;
     }
 
     /*ny sektion ABOUT ME */
@@ -519,6 +537,11 @@ h4{
     }
 
 
+
+
+
+
+
     /*STYLING TIL ILLUSTRATION*/
     .traveling .text{
         padding: 1rem 6.5rem;
@@ -534,7 +557,7 @@ h4{
     /* STYLING TIL ANIMATION */
 
     .some-content .text{
-        padding: 1rem 6.5rem;
+        padding: 1rem 9rem;
     }
 
     .some-content img{
@@ -545,10 +568,19 @@ h4{
         width: 400px;
     }
 
+    .some-content h3{
+        padding: 1rem 6.5rem;
+    }
+
 
 
 
     /* STYLING AF WEBSITE*/
+
+    .header-text hr{
+        width: 300px;
+        margin-left: 430px;
+    }
 
     .call-me-handy{
         margin-bottom: 5rem;
