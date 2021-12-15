@@ -364,6 +364,22 @@ h4{
     padding: 1rem 2.5rem;
 }
 
+.btn-website{
+    display: inline-block;
+    text-decoration: none;
+    color: #707070;
+    background-color: #B4BF8C;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-family: 'Julius Sans One', regular;
+    margin: 1rem 2.5rem; 
+}
+
+.btn-website:hover{
+    background: #D3E8EF;
+    transition: 0.5s;
+}
+
 
 
 
@@ -656,6 +672,10 @@ h4{
 
     .den-kinesiske-butik h3{
         padding: 1rem 6.5rem;
+    }
+
+    .btn-website{
+        margin: 1rem 9rem; 
     }
 
 
