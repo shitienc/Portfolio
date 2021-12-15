@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* STYLING AF HOME */
 
 /* baggrund for hjemmeside til mobil version */
@@ -343,6 +347,25 @@ h4{
 }
 
 
+.hotel-alien .text{
+    padding: 1rem 2.5rem;
+}
+
+.hotel-alien h3{
+    padding: 1rem 2.5rem;
+}
+
+
+.den-kinesiske-butik .text{
+    padding: 1rem 2.5rem;
+}
+
+.den-kinesiske-butik h3{
+    padding: 1rem 2.5rem;
+}
+
+
+
 
 /* TIL COMPUTER */
 
@@ -511,6 +534,10 @@ h4{
 
     /* STYLING AF WEBSITE*/
 
+    .call-me-handy{
+        margin-bottom: 5rem;
+    }
+
     .call-me-handy .photo {
         margin: 0 6.5rem;
         display: grid;
@@ -546,5 +573,90 @@ h4{
     .call-me-handy h3{
         padding: 1rem 6.5rem;
     }
+
+
+
+    .hotel-alien{
+        margin-bottom: 5rem;
+    }
+
+    .hotel-alien .photo {
+        margin: 0 6.5rem;
+        display: grid;
+        grid-auto-columns: repeat(12,1fr);
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "ha2 ha2 ha2 ha2 ha2 ha2 ha1 ha1 ha1 ha1 ha1 ha1"
+        "ha3 ha3 ha3 ha3 ha3 ha3 ha1 ha1 ha1 ha1 ha1 ha1";
+    }
+
+    .hotel-alien .photo img {
+        margin: 0;
+        padding: 0;
+    }
+
+    .ha1 {
+        grid-area: ha1;
+        width: 100%;
+    }
+    .ha2 {
+        grid-area: ha2;
+        width: 100%;
+    }
+    .ha3 {
+        grid-area: ha3;
+        width: 100%;
+    }
+    
+    .hotel-alien .text{
+        padding: 1rem 9rem;
+    }
+
+    .hotel-alien h3{
+        padding: 1rem 6.5rem;
+    }
+
+
+
+    .den-kinesiske-butik{
+        margin-bottom: 5rem;
+    }
+
+    .den-kinesiske-butik .photo {
+        margin: 0 6.5rem;
+        display: grid;
+        grid-auto-columns: repeat(12,1fr);
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "dkb1 dkb1 dkb1 dkb1 dkb1 dkb1 dkb2 dkb2 dkb2 dkb2 dkb2 dkb2"
+        "dkb1 dkb1 dkb1 dkb1 dkb1 dkb1 dkb3 dkb3 dkb3 dkb3 dkb3 dkb3";
+    }
+
+    .den-kinesiske-butik .photo img {
+        margin: 0;
+        padding: 0;
+    }
+
+    .dkb1 {
+        grid-area: dkb1;
+        width: 100%;
+    }
+    .dkb2 {
+        grid-area: dkb2;
+        width: 100%;
+    }
+    .dkb3 {
+        grid-area: dkb3;
+        width: 100%;
+    }
+    
+    .den-kinesiske-butik .text{
+        padding: 1rem 9rem;
+    }
+
+    .den-kinesiske-butik h3{
+        padding: 1rem 6.5rem;
+    }
+
 
 }
