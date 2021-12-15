@@ -118,6 +118,7 @@ h2{
 
 
 
+
 /* STYLING TIL "ABOUT" */
 
 /* ny baggrundsbillede */
@@ -239,6 +240,7 @@ input[type=text], select, textarea {
 
 
 
+
 /*STYLING TIL PHOTOGRAPHY*/
 
 .header-portfolio{
@@ -320,6 +322,24 @@ hr{
 
 .some-content hr{
     width: 250px;
+}
+
+
+
+
+/* STYLING AF WEBSITE*/
+
+h4{
+    font-family: 'Tajawal';
+    color: #707070;
+}
+
+.call-me-handy h3{
+    padding: 1rem 2.5rem;
+}
+
+.call-me-handy .text{
+    padding: 1rem 2.5rem;
 }
 
 
@@ -485,4 +505,46 @@ hr{
     .some-content hr{
         width: 400px;
     }
+
+
+
+
+    /* STYLING AF WEBSITE*/
+
+    .call-me-handy .photo {
+        margin: 0 6.5rem;
+        display: grid;
+        grid-auto-columns: repeat(12,1fr);
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "cmh1 cmh1 cmh1 cmh1 cmh1 cmh1 cmh2 cmh2 cmh2 cmh2 cmh2 cmh2"
+        "cmh1 cmh1 cmh1 cmh1 cmh1 cmh1 cmh3 cmh3 cmh3 cmh3 cmh3 cmh3";
+    }
+
+    .call-me-handy .photo img {
+        margin: 0;
+        padding: 0;
+    }
+
+    .cmh1 {
+        grid-area: cmh1;
+        width: 100%;
+    }
+    .cmh2 {
+        grid-area: cmh2;
+        width: 100%;
+    }
+    .cmh3 {
+        grid-area: cmh3;
+        width: 100%;
+    }
+    
+    .call-me-handy .text{
+        padding: 1rem 9rem;
+    }
+
+    .call-me-handy h3{
+        padding: 1rem 6.5rem;
+    }
+
 }
