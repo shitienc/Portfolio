@@ -51,7 +51,7 @@ nav{
     display: block;
     list-style: none;
     font-size: 20px;
-    font-family: 'Julius Sans One', regular;
+    font-family: 'Julius Sans One', sans-serif;
     padding-top: 20px;
 }
 
@@ -69,7 +69,7 @@ nav{
 }
 
 h1{
-    font-family: 'Julius Sans One', regular;
+    font-family: 'Julius Sans One', sans-serif;
     color: #707070;
     text-transform: uppercase;
 }
@@ -93,7 +93,7 @@ p{
 /* styling i section "MY WORK" */
 
 h2{
-    font-family: 'Julius Sans One';
+    font-family: 'Julius Sans One' sans-serif;
     color: #707070;
     text-transform: uppercase;
 }
@@ -184,7 +184,7 @@ h2{
     background-color: #B4BF8C;
     padding: 10px 30px;
     cursor: pointer;
-    font-family: 'Julius Sans One', regular;
+    font-family: 'Julius Sans One', sans-serif;
 }
 
 .btn:hover{
@@ -284,7 +284,7 @@ img{
 }
 
 h3{
-    font-family: 'Julius Sans One';
+    font-family: 'Julius Sans One' sans-serif;
     color: #707070;
     text-transform: uppercase;
 }
@@ -389,7 +389,7 @@ h4{
     background-color: #B4BF8C;
     padding: 10px 30px;
     cursor: pointer;
-    font-family: 'Julius Sans One', regular;
+    font-family: 'Julius Sans One', sans-serif;
     margin: 1rem 2.5rem; 
 }
 
