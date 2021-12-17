@@ -113,7 +113,7 @@ h2{
 
 .my-work{
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .my-work h2{
@@ -148,7 +148,7 @@ h2{
     color: #707070;
     background-color: #B4BF8C;
     border-radius: 100%;
-    padding: 10px 10px;
+    padding: 5px 10px;
     cursor: pointer;
     font-family: julius;
     border:#707070 solid 1.5px ;
@@ -312,7 +312,7 @@ input[type=text], select, textarea {
     text-align: center;
 }
 
-.photo img{
+ img{
     width: 280px;
     padding-top: 10px;
 }
@@ -505,7 +505,7 @@ h4{
     .my-work{
         min-height: 100%;
         text-align: center;
-        margin-bottom: 0;
+        margin-bottom: 6.5;
     }
 
     .my-work h2{
@@ -521,7 +521,7 @@ h4{
         padding-top: 20px;
         display: inline-grid;
         grid-template-columns: 1fr 1fr;
-        grid-column-gap: 10px;
+        grid-column-gap: 16px;
     }
 
     .btn-position img{
