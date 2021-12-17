@@ -1,3 +1,11 @@
+@font-face {
+    font-family:julius ;
+    src: url(./fonts/JuliusSansOne-Regular.ttf);
+}
+@font-face {
+    font-family: taja;
+    src: url(./fonts/Tajawal-Regular.ttf);
+}
 *{
 
     margin: 0;
@@ -51,7 +59,7 @@ nav{
     display: block;
     list-style: none;
     font-size: 20px;
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: julius;
     padding-top: 20px;
 }
 
@@ -69,13 +77,13 @@ nav{
 }
 
 h1{
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: julius;
     color: #707070;
     text-transform: uppercase;
 }
 
 p{
-    font-family: 'Tajawal';
+    font-family: taja;
     color: #707070;
 }
 
@@ -93,7 +101,7 @@ p{
 /* styling i section "MY WORK" */
 
 h2{
-    font-family: 'Julius Sans One' sans-serif;
+    font-family: julius;
     color: #707070;
     text-transform: uppercase;
 }
@@ -105,7 +113,7 @@ h2{
 
 .my-work{
     text-align: center;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
 }
 
 .my-work h2{
@@ -116,6 +124,37 @@ h2{
 .my-work img{
     width: 250px;
     padding-top: 10px;
+}
+
+
+/*knap der scroller op*/
+
+.btn-position{
+    position: sticky;
+    bottom: 0;
+    padding-left: 17rem;
+}
+
+.btn-scroll img{
+    width: 35px;
+    display: flex;
+    text-align: center;
+}
+
+.btn-scroll{
+    display: inline-block;
+    text-decoration: none;
+    color: #707070;
+    background-color: #B4BF8C;
+    border-radius: 100%;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.btn-scroll:hover{
+    background: #D3E8EF;
+    transition: 0.5s;
 }
 
 
@@ -151,8 +190,7 @@ h2{
 /*ny sektion ABOUT ME */
 
 .about-me{
-    padding: 0 3rem 0 3rem;
-    margin-bottom: 5rem;
+    padding: 2rem 3rem;
 }
 
 .about-me h2{
@@ -184,12 +222,18 @@ h2{
     background-color: #B4BF8C;
     padding: 10px 30px;
     cursor: pointer;
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: julius;
 }
 
 .btn:hover{
     background: #D3E8EF;
     transition: 0.5s;
+}
+
+/*knap der scroller*/
+
+.about-me .btn-position{
+    padding-left: 14.5rem;
 }
 
 
@@ -235,7 +279,7 @@ input[type=text], select, textarea {
     margin-top: 6px; 
     margin-bottom: 16px; 
     resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
-    font-family: 'Tajawal';
+    font-family: tawa;
   }
 
   /* kontakt box taget fra https://www.w3schools.com/howto/howto_css_contact_form.asp .
@@ -284,7 +328,7 @@ img{
 }
 
 h3{
-    font-family: 'Julius Sans One' sans-serif;
+    font-family: julius;
     color: #707070;
     text-transform: uppercase;
 }
@@ -352,7 +396,7 @@ hr{
 /* STYLING AF WEBSITE*/
 
 h4{
-    font-family: 'Tajawal';
+    font-family: taja;
     color: #707070;
 }
 
@@ -389,7 +433,7 @@ h4{
     background-color: #B4BF8C;
     padding: 10px 30px;
     cursor: pointer;
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: julius;
     margin: 1rem 2.5rem; 
 }
 
@@ -478,6 +522,17 @@ h4{
         grid-column-gap: 10px;
     }
 
+    .btn-position img{
+        width: 50px;
+    }
+
+
+    .btn-position{
+        padding-bottom: 20px;
+        padding-left: 70rem;
+    }
+
+
 
 
 
@@ -495,7 +550,7 @@ h4{
         grid-template-columns: 1fr 1fr;
         grid-column-gap: 3rem;
         padding: 5% 20% 0 20%;
-        margin-bottom: 9rem;
+        margin-bottom: 5rem;
     }
 
     .about-me .picture img{
@@ -506,6 +561,9 @@ h4{
     .about-me p{
         font-size: 16px;
     }
+
+
+
 
 
 
