@@ -148,7 +148,7 @@ h2{
     color: #707070;
     background-color: #B4BF8C;
     border-radius: 100%;
-    padding: 5px 10px;
+    padding: 10px 10px;
     cursor: pointer;
     font-family: julius;
     border:#707070 solid 1.5px ;
@@ -281,7 +281,7 @@ input[type=text], select, textarea {
     margin-top: 6px; 
     margin-bottom: 16px; 
     resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
-    font-family: tawa;
+    font-family: taja;
   }
 
   /* kontakt box taget fra https://www.w3schools.com/howto/howto_css_contact_form.asp .
@@ -312,7 +312,7 @@ input[type=text], select, textarea {
     text-align: center;
 }
 
-img{
+.photo img{
     width: 280px;
     padding-top: 10px;
 }
