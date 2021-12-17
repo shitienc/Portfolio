@@ -130,9 +130,10 @@ h2{
 /*knap der scroller op*/
 
 .btn-position{
-    position: sticky;
+    position: fixed;
     bottom: 0;
     padding-left: 17rem;
+
 }
 
 .btn-scroll img{
@@ -149,7 +150,8 @@ h2{
     border-radius: 100%;
     padding: 5px 10px;
     cursor: pointer;
-    font-family: 'Julius Sans One', sans-serif;
+    font-family: julius;
+    border:#707070 solid 1.5px ;
 }
 
 .btn-scroll:hover{
@@ -245,7 +247,7 @@ h2{
 /* ny sektion CONTACT INFO */
 
 .contact-info{
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
 }
 
 .contact-info .text{
@@ -339,7 +341,7 @@ hr{
 
 .takayama{
     padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
 }
 
 .takayama .text h4{
@@ -356,7 +358,7 @@ hr{
 .traveling{
     background-color: #D3E8EF;
     padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
 }
 
 .traveling .text{
@@ -375,7 +377,7 @@ hr{
 .some-content{
     background-color: #B4BF8C;
     padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-bottom: 3rem;
 }
 
 .some-content .text{
@@ -550,7 +552,7 @@ h4{
         grid-template-columns: 1fr 1fr;
         grid-column-gap: 3rem;
         padding: 5% 20% 0 20%;
-        margin-bottom: 5rem;
+        margin-bottom: 6.5rem;
     }
 
     .about-me .picture img{
@@ -571,7 +573,7 @@ h4{
     /*STILYNG TIL CONTACT*/
     .contact-info{
         display: flex;
-        padding: 5% 15% 0 15%;
+        padding: 6.5% 15% 0 15%;
     }
 
     .contact-info .text{
