@@ -502,10 +502,13 @@ h4{
 
     /* ny sektion MY WORK */
 
+    .contact-info{
+        margin-bottom: 5rem;
+    }
+
     .my-work{
         min-height: 100%;
         text-align: center;
-        margin-bottom: 6.5;
     }
 
     .my-work h2{
@@ -530,7 +533,6 @@ h4{
 
 
     .btn-position{
-        padding-bottom: 20px;
         padding-left: 70rem;
     }
 
@@ -577,7 +579,7 @@ h4{
     }
 
     .contact-info .text{
-        padding: 0.5rem 3rem 3rem 3rem;
+        padding: 0.5rem 5rem 3rem 3rem;
     }
 
 
